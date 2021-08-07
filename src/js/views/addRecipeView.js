@@ -1,4 +1,4 @@
-/* import icons from 'url:../../img/icons.svg'; */
+import icons from 'url:../../img/icons.svg';
 
 import View from './view.js';
 
@@ -39,10 +39,6 @@ class AddRecipeView extends View {
             const data = Object.fromEntries(dataArray);
             handler(data);
         })
-    }
-
-    _generateMarkup() {
-
     }
 
 }
